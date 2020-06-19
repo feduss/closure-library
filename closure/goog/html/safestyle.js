@@ -546,7 +546,7 @@ goog.html.SafeStyle.URL_RE_ = new RegExp(
 goog.html.SafeStyle.FUNCTIONS_RE_ = new RegExp(
     '\\b(hsl|hsla|rgb|rgba|matrix|calc|minmax|fit-content|repeat|' +
         '(rotate|scale|translate)(X|Y|Z|3d)?)' +
-        '\\([-+*/0-9a-z.%\\[\\], ]+\\)',
+        '\\([-+/*0-9a-z.%\\[\\], ]+\\)',
     'g');
 
 
